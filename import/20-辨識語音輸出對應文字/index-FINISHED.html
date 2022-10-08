@@ -15,7 +15,7 @@
 
   const recognition = new SpeechRecognition();
   recognition.interimResults = true; //語音進行時同步輸出文字； false則是語音停止才輸出
-  recognition.lang = 'zh-TW';
+  recognition.lang = 'en-US';
   
   let p = document.createElement('p');
   const words = document.querySelector('.words');
